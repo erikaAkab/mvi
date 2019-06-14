@@ -5,7 +5,7 @@ import com.raywenderlich.android.creaturemon.data.model.CreatureAttributes
 import com.raywenderlich.android.creaturemon.data.model.CreatureGenerator
 import com.raywenderlich.android.creaturemon.mvibase.MviViewState
 
-class AddCreatureViewState(
+data class AddCreatureViewState(
         val isProcessing: Boolean,
         val creature: Creature,
         val isDrawableSelected: Boolean,

@@ -3,7 +3,7 @@ package com.raywenderlich.android.creaturemon.allcreatures
 import com.raywenderlich.android.creaturemon.data.model.Creature
 import com.raywenderlich.android.creaturemon.mvibase.MviViewState
 
-class AllCreaturesViewState(
+data class AllCreaturesViewState(
         val isLoading: Boolean,
         val creatures: List<Creature>,
         val error: Throwable?
